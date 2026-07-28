@@ -5,36 +5,224 @@
     "season": "2025/26",
     "worldCup": "FIFA World Cup 2026"
   },
-
   "betway_premiership": {
     "season": "2025/26",
     "dates": "9 August 2025 – 23 May 2026",
     "champion": "Orlando Pirates",
-    "topScorer": { "name": "Junior Dion", "goals": 14 },
-    "mostValuablePlayer": { "name": "Iqraam Rayners", "marketValue": "€3.00m" },
+    "topScorer": {
+      "name": "Junior Dion",
+      "goals": 14
+    },
+    "mostValuablePlayer": {
+      "name": "Iqraam Rayners",
+      "marketValue": "€3.00m"
+    },
     "totalTeams": 16,
-    "relegated": ["Orbit College"],
-    "promotedToCafChampionsLeague": ["Orlando Pirates", "Mamelodi Sundowns"],
-    "promotedToCafConfederationCup": ["Kaizer Chiefs", "Durban City"],
-    "finalStandings": [
-      { "pos": 1,  "team": "Orlando Pirates",         "pld": 30, "w": 21, "d": 6,  "l": 3,  "gf": 58, "ga": 12, "gd": 46,  "pts": 69 },
-      { "pos": 2,  "team": "Mamelodi Sundowns",        "pld": 30, "w": 18, "d": 8,  "l": 4,  "gf": 62, "ga": 22, "gd": 40,  "pts": 62 },
-      { "pos": 3,  "team": "Kaizer Chiefs",            "pld": 30, "w": 15, "d": 7,  "l": 8,  "gf": 44, "ga": 30, "gd": 14,  "pts": 52 },
-      { "pos": 4,  "team": "Stellenbosch FC",          "pld": 30, "w": 13, "d": 9,  "l": 8,  "gf": 38, "ga": 31, "gd": 7,   "pts": 48 },
-      { "pos": 5,  "team": "Durban City",              "pld": 30, "w": 12, "d": 9,  "l": 9,  "gf": 35, "ga": 33, "gd": 2,   "pts": 45 },
-      { "pos": 6,  "team": "Sekhukhune United",        "pld": 30, "w": 11, "d": 9,  "l": 10, "gf": 33, "ga": 35, "gd": -2,  "pts": 42 },
-      { "pos": 7,  "team": "AmaZulu FC",               "pld": 30, "w": 10, "d": 11, "l": 9,  "gf": 30, "ga": 32, "gd": -2,  "pts": 41 },
-      { "pos": 8,  "team": "Polokwane City",           "pld": 30, "w": 10, "d": 10, "l": 10, "gf": 29, "ga": 33, "gd": -4,  "pts": 40 },
-      { "pos": 9,  "team": "Lamontville Golden Arrows","pld": 30, "w": 9,  "d": 10, "l": 11, "gf": 27, "ga": 34, "gd": -7,  "pts": 37 },
-      { "pos": 10, "team": "Siwelele FC",              "pld": 30, "w": 9,  "d": 9,  "l": 12, "gf": 40, "ga": 50, "gd": -10, "pts": 36 },
-      { "pos": 11, "team": "Marumo Gallants",          "pld": 30, "w": 8,  "d": 11, "l": 11, "gf": 26, "ga": 33, "gd": -7,  "pts": 35 },
-      { "pos": 12, "team": "Richards Bay",             "pld": 30, "w": 8,  "d": 10, "l": 12, "gf": 25, "ga": 35, "gd": -10, "pts": 34 },
-      { "pos": 13, "team": "Magesi FC",                "pld": 30, "w": 8,  "d": 9,  "l": 13, "gf": 24, "ga": 38, "gd": -14, "pts": 33 },
-      { "pos": 14, "team": "TS Galaxy",                "pld": 30, "w": 6,  "d": 9,  "l": 15, "gf": 22, "ga": 48, "gd": -26, "pts": 27 },
-      { "pos": 15, "team": "Chippa United",            "pld": 30, "w": 6,  "d": 8,  "l": 16, "gf": 20, "ga": 42, "gd": -22, "pts": 26 },
-      { "pos": 16, "team": "Orbit College",            "pld": 30, "w": 6,  "d": 6,  "l": 18, "gf": 21, "ga": 47, "gd": -26, "pts": 24 }
+    "relegated": [
+      "Orbit College"
     ],
-
+    "promotedToCafChampionsLeague": [
+      "Orlando Pirates",
+      "Mamelodi Sundowns"
+    ],
+    "promotedToCafConfederationCup": [
+      "Kaizer Chiefs",
+      "Durban City"
+    ],
+    "finalStandings": [
+      {
+        "pos": 1,
+        "team": "Orlando Pirates",
+        "pld": 30,
+        "w": 21,
+        "d": 6,
+        "l": 3,
+        "gf": 58,
+        "ga": 12,
+        "gd": 46,
+        "pts": 69
+      },
+      {
+        "pos": 2,
+        "team": "Mamelodi Sundowns",
+        "pld": 30,
+        "w": 18,
+        "d": 8,
+        "l": 4,
+        "gf": 62,
+        "ga": 22,
+        "gd": 40,
+        "pts": 62
+      },
+      {
+        "pos": 3,
+        "team": "Kaizer Chiefs",
+        "pld": 30,
+        "w": 15,
+        "d": 7,
+        "l": 8,
+        "gf": 44,
+        "ga": 30,
+        "gd": 14,
+        "pts": 52
+      },
+      {
+        "pos": 4,
+        "team": "Stellenbosch FC",
+        "pld": 30,
+        "w": 13,
+        "d": 9,
+        "l": 8,
+        "gf": 38,
+        "ga": 31,
+        "gd": 7,
+        "pts": 48
+      },
+      {
+        "pos": 5,
+        "team": "Durban City",
+        "pld": 30,
+        "w": 12,
+        "d": 9,
+        "l": 9,
+        "gf": 35,
+        "ga": 33,
+        "gd": 2,
+        "pts": 45
+      },
+      {
+        "pos": 6,
+        "team": "Sekhukhune United",
+        "pld": 30,
+        "w": 11,
+        "d": 9,
+        "l": 10,
+        "gf": 33,
+        "ga": 35,
+        "gd": -2,
+        "pts": 42
+      },
+      {
+        "pos": 7,
+        "team": "AmaZulu FC",
+        "pld": 30,
+        "w": 10,
+        "d": 11,
+        "l": 9,
+        "gf": 30,
+        "ga": 32,
+        "gd": -2,
+        "pts": 41
+      },
+      {
+        "pos": 8,
+        "team": "Polokwane City",
+        "pld": 30,
+        "w": 10,
+        "d": 10,
+        "l": 10,
+        "gf": 29,
+        "ga": 33,
+        "gd": -4,
+        "pts": 40
+      },
+      {
+        "pos": 9,
+        "team": "Lamontville Golden Arrows",
+        "pld": 30,
+        "w": 9,
+        "d": 10,
+        "l": 11,
+        "gf": 27,
+        "ga": 34,
+        "gd": -7,
+        "pts": 37
+      },
+      {
+        "pos": 10,
+        "team": "Siwelele FC",
+        "pld": 30,
+        "w": 9,
+        "d": 9,
+        "l": 12,
+        "gf": 40,
+        "ga": 50,
+        "gd": -10,
+        "pts": 36
+      },
+      {
+        "pos": 11,
+        "team": "Marumo Gallants",
+        "pld": 30,
+        "w": 8,
+        "d": 11,
+        "l": 11,
+        "gf": 26,
+        "ga": 33,
+        "gd": -7,
+        "pts": 35
+      },
+      {
+        "pos": 12,
+        "team": "Richards Bay",
+        "pld": 30,
+        "w": 8,
+        "d": 10,
+        "l": 12,
+        "gf": 25,
+        "ga": 35,
+        "gd": -10,
+        "pts": 34
+      },
+      {
+        "pos": 13,
+        "team": "Magesi FC",
+        "pld": 30,
+        "w": 8,
+        "d": 9,
+        "l": 13,
+        "gf": 24,
+        "ga": 38,
+        "gd": -14,
+        "pts": 33
+      },
+      {
+        "pos": 14,
+        "team": "TS Galaxy",
+        "pld": 30,
+        "w": 6,
+        "d": 9,
+        "l": 15,
+        "gf": 22,
+        "ga": 48,
+        "gd": -26,
+        "pts": 27
+      },
+      {
+        "pos": 15,
+        "team": "Chippa United",
+        "pld": 30,
+        "w": 6,
+        "d": 8,
+        "l": 16,
+        "gf": 20,
+        "ga": 42,
+        "gd": -22,
+        "pts": 26
+      },
+      {
+        "pos": 16,
+        "team": "Orbit College",
+        "pld": 30,
+        "w": 6,
+        "d": 6,
+        "l": 18,
+        "gf": 21,
+        "ga": 47,
+        "gd": -26,
+        "pts": 24
+      }
+    ],
     "clubs": [
       {
         "id": "orlando-pirates",
@@ -46,7 +234,11 @@
         "coach": "TBC (post-Jose Riveiro era)",
         "founded": 1937,
         "nickname": "Buccaneers",
-        "colors": ["Black", "White", "Red"],
+        "colors": [
+          "Black",
+          "White",
+          "Red"
+        ],
         "season2526": {
           "position": 1,
           "points": 69,
@@ -54,21 +246,92 @@
           "cafQualification": "CAF Champions League"
         },
         "keyPlayers": [
-          { "name": "Sipho Chaine",          "position": "GK",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Olisa Ndah",            "position": "CB",  "nationality": "Nigeria" },
-          { "name": "Thabiso Monyane",       "position": "LB",  "nationality": "South Africa" },
-          { "name": "Ndabayithethwa Ntuli",  "position": "CB",  "nationality": "South Africa" },
-          { "name": "Abel Mabaso",           "position": "RB",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Innocent Maela",        "position": "CB",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Thalente Mbatha",       "position": "CDM", "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Goodman Mosele",        "position": "CM",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Deon Hotto",            "position": "LW",  "nationality": "Namibia",      "notes": "Bafana WC 2026 squad" },
-          { "name": "Relebohile Mofokeng",   "position": "AM",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad, young star" },
-          { "name": "Evidence Makgopa",      "position": "ST",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Tshegofatso Mabasa",    "position": "ST",  "nationality": "South Africa" },
-          { "name": "Monnapule Saleng",      "position": "LW",  "nationality": "South Africa", "notes": "Joined from Sundowns" },
-          { "name": "Daniel Msendami",       "position": "CM",  "nationality": "South Africa", "notes": "Mid-season signing" },
-          { "name": "Andre De Jong",         "position": "CM",  "nationality": "Netherlands",  "notes": "Signed mid-season from Stellenbosch" }
+          {
+            "name": "Sipho Chaine",
+            "position": "GK",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Olisa Ndah",
+            "position": "CB",
+            "nationality": "Nigeria"
+          },
+          {
+            "name": "Thabiso Monyane",
+            "position": "LB",
+            "nationality": "South Africa"
+          },
+          {
+            "name": "Ndabayithethwa Ntuli",
+            "position": "CB",
+            "nationality": "South Africa"
+          },
+          {
+            "name": "Abel Mabaso",
+            "position": "RB",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Innocent Maela",
+            "position": "CB",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Thalente Mbatha",
+            "position": "CDM",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Goodman Mosele",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Deon Hotto",
+            "position": "LW",
+            "nationality": "Namibia",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Relebohile Mofokeng",
+            "position": "AM",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad, young star"
+          },
+          {
+            "name": "Evidence Makgopa",
+            "position": "ST",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Tshegofatso Mabasa",
+            "position": "ST",
+            "nationality": "South Africa"
+          },
+          {
+            "name": "Monnapule Saleng",
+            "position": "LW",
+            "nationality": "South Africa",
+            "notes": "Joined from Sundowns"
+          },
+          {
+            "name": "Daniel Msendami",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Mid-season signing"
+          },
+          {
+            "name": "Andre De Jong",
+            "position": "CM",
+            "nationality": "Netherlands",
+            "notes": "Signed mid-season from Stellenbosch"
+          }
         ]
       },
       {
@@ -81,7 +344,11 @@
         "coach": "Miguel Cardoso",
         "founded": 1970,
         "nickname": "Brazilians / Masandawana",
-        "colors": ["Yellow", "Blue", "Green"],
+        "colors": [
+          "Yellow",
+          "Blue",
+          "Green"
+        ],
         "season2526": {
           "position": 2,
           "points": 62,
@@ -90,20 +357,90 @@
           "longestWinningRun": 10
         },
         "keyPlayers": [
-          { "name": "Ronwen Williams",     "position": "GK",  "nationality": "South Africa", "notes": "Captain, Bafana WC 2026" },
-          { "name": "Khuliso Mudau",       "position": "RB",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Mothobi Mvala",       "position": "CB",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Rushine De Reuck",    "position": "CB",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Fawaaz Basadien",     "position": "LB",  "nationality": "South Africa", "notes": "Key signing 2025, Bafana WC 2026 squad" },
-          { "name": "Andile Jali",         "position": "CM",  "nationality": "South Africa", "notes": "Veteran midfielder" },
-          { "name": "Teboho Mokoena",      "position": "CM",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad, set-piece specialist" },
-          { "name": "Jayden Adams",        "position": "CM",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Themba Zwane",        "position": "AM",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad, veteran" },
-          { "name": "Iqraam Rayners",      "position": "ST",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad, most valuable PSL player €3m" },
-          { "name": "Thapelo Maseko",      "position": "RW",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Nuno Santos",         "position": "LW",  "nationality": "Portugal",     "notes": "Signed from Vitória Guimarães" },
-          { "name": "Miguel Reisinho",     "position": "AM",  "nationality": "Portugal",     "notes": "Signed from Boavista" },
-          { "name": "Tsiki Ntsabeleng",    "position": "CM",  "nationality": "South Africa", "notes": "On loan from FC Dallas" }
+          {
+            "name": "Ronwen Williams",
+            "position": "GK",
+            "nationality": "South Africa",
+            "notes": "Captain, Bafana WC 2026"
+          },
+          {
+            "name": "Khuliso Mudau",
+            "position": "RB",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Mothobi Mvala",
+            "position": "CB",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Rushine De Reuck",
+            "position": "CB",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Fawaaz Basadien",
+            "position": "LB",
+            "nationality": "South Africa",
+            "notes": "Key signing 2025, Bafana WC 2026 squad"
+          },
+          {
+            "name": "Andile Jali",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Veteran midfielder"
+          },
+          {
+            "name": "Teboho Mokoena",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad, set-piece specialist"
+          },
+          {
+            "name": "Jayden Adams",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Themba Zwane",
+            "position": "AM",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad, veteran"
+          },
+          {
+            "name": "Iqraam Rayners",
+            "position": "ST",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad, most valuable PSL player €3m"
+          },
+          {
+            "name": "Thapelo Maseko",
+            "position": "RW",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Nuno Santos",
+            "position": "LW",
+            "nationality": "Portugal",
+            "notes": "Signed from Vitória Guimarães"
+          },
+          {
+            "name": "Miguel Reisinho",
+            "position": "AM",
+            "nationality": "Portugal",
+            "notes": "Signed from Boavista"
+          },
+          {
+            "name": "Tsiki Ntsabeleng",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "On loan from FC Dallas"
+          }
         ]
       },
       {
@@ -116,22 +453,68 @@
         "coach": "Nasreddine Nabi",
         "founded": 1970,
         "nickname": "Amakhosi",
-        "colors": ["Gold", "Black"],
+        "colors": [
+          "Gold",
+          "Black"
+        ],
         "season2526": {
           "position": 3,
           "points": 52,
           "cafQualification": "CAF Confederation Cup"
         },
         "keyPlayers": [
-          { "name": "Brandon Petersen",     "position": "GK",  "nationality": "South Africa", "notes": "Did not make Bafana WC 26 squad" },
-          { "name": "Bradley Cross",        "position": "LB",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" },
-          { "name": "Thabiso Monyane",      "position": "LB",  "nationality": "South Africa", "notes": "Notable omission from Bafana WC 26" },
-          { "name": "Edmilson Dove",        "position": "CB",  "nationality": "Mozambique" },
-          { "name": "Njabulo Blom",         "position": "CM",  "nationality": "South Africa" },
-          { "name": "Mduduzi Shabalala",    "position": "AM",  "nationality": "South Africa", "notes": "Top scorer 2024/25" },
-          { "name": "Lebohang Maboe",       "position": "AM",  "nationality": "South Africa", "notes": "Signed from Sundowns" },
-          { "name": "Etiosa Ighodaro",      "position": "ST",  "nationality": "Nigeria",      "notes": "Signed from Sundowns" },
-          { "name": "Lyle Foster",          "position": "ST",  "nationality": "South Africa", "notes": "Bafana WC 2026 squad" }
+          {
+            "name": "Brandon Petersen",
+            "position": "GK",
+            "nationality": "South Africa",
+            "notes": "Did not make Bafana WC 26 squad"
+          },
+          {
+            "name": "Bradley Cross",
+            "position": "LB",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          },
+          {
+            "name": "Thabiso Monyane",
+            "position": "LB",
+            "nationality": "South Africa",
+            "notes": "Notable omission from Bafana WC 26"
+          },
+          {
+            "name": "Edmilson Dove",
+            "position": "CB",
+            "nationality": "Mozambique"
+          },
+          {
+            "name": "Njabulo Blom",
+            "position": "CM",
+            "nationality": "South Africa"
+          },
+          {
+            "name": "Mduduzi Shabalala",
+            "position": "AM",
+            "nationality": "South Africa",
+            "notes": "Top scorer 2024/25"
+          },
+          {
+            "name": "Lebohang Maboe",
+            "position": "AM",
+            "nationality": "South Africa",
+            "notes": "Signed from Sundowns"
+          },
+          {
+            "name": "Etiosa Ighodaro",
+            "position": "ST",
+            "nationality": "Nigeria",
+            "notes": "Signed from Sundowns"
+          },
+          {
+            "name": "Lyle Foster",
+            "position": "ST",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          }
         ]
       },
       {
@@ -143,12 +526,33 @@
         "stadiumCapacity": 16000,
         "coach": "Steve Barker (departed)",
         "founded": 1994,
-        "colors": ["Maroon", "White"],
-        "season2526": { "position": 4, "points": 48 },
+        "colors": [
+          "Maroon",
+          "White"
+        ],
+        "season2526": {
+          "position": 4,
+          "points": 48
+        },
         "keyPlayers": [
-          { "name": "Iqraam Rayners",   "position": "ST",  "nationality": "South Africa", "notes": "Left to Sundowns" },
-          { "name": "Tshegofatso Mabasa","position": "ST",  "nationality": "South Africa", "notes": "On loan from Pirates" },
-          { "name": "Shakeel April",    "position": "CM",  "nationality": "South Africa", "notes": "Joined from Cape Town City" }
+          {
+            "name": "Iqraam Rayners",
+            "position": "ST",
+            "nationality": "South Africa",
+            "notes": "Left to Sundowns"
+          },
+          {
+            "name": "Tshegofatso Mabasa",
+            "position": "ST",
+            "nationality": "South Africa",
+            "notes": "On loan from Pirates"
+          },
+          {
+            "name": "Shakeel April",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Joined from Cape Town City"
+          }
         ]
       },
       {
@@ -160,11 +564,26 @@
         "stadiumCapacity": 56000,
         "founded": 1932,
         "nickname": "Usuthu",
-        "colors": ["Black", "White", "Red"],
-        "season2526": { "position": 7, "points": 41 },
+        "colors": [
+          "Black",
+          "White",
+          "Red"
+        ],
+        "season2526": {
+          "position": 7,
+          "points": 41
+        },
         "keyPlayers": [
-          { "name": "Luvuyo Memela",    "position": "LW",  "nationality": "South Africa" },
-          { "name": "Tapelo Xoki",      "position": "CB",  "nationality": "South Africa" }
+          {
+            "name": "Luvuyo Memela",
+            "position": "LW",
+            "nationality": "South Africa"
+          },
+          {
+            "name": "Tapelo Xoki",
+            "position": "CB",
+            "nationality": "South Africa"
+          }
         ]
       },
       {
@@ -175,11 +594,27 @@
         "stadium": "Peter Mokaba Stadium",
         "stadiumCapacity": 45500,
         "founded": 2017,
-        "colors": ["Red", "Black"],
-        "season2526": { "position": 6, "points": 42 },
+        "colors": [
+          "Red",
+          "Black"
+        ],
+        "season2526": {
+          "position": 6,
+          "points": 42
+        },
         "keyPlayers": [
-          { "name": "Junior Dion",       "position": "ST",  "nationality": "South Africa", "notes": "Top scorer 2025/26 season – 14 goals" },
-          { "name": "Wonderboy Makhubu", "position": "CM",  "nationality": "South Africa", "notes": "Signed from Chippa United" }
+          {
+            "name": "Junior Dion",
+            "position": "ST",
+            "nationality": "South Africa",
+            "notes": "Top scorer 2025/26 season – 14 goals"
+          },
+          {
+            "name": "Wonderboy Makhubu",
+            "position": "CM",
+            "nationality": "South Africa",
+            "notes": "Signed from Chippa United"
+          }
         ]
       },
       {
@@ -204,8 +639,14 @@
         "city": "Durban",
         "stadium": "Princess Magogo Stadium",
         "founded": 1943,
-        "colors": ["Yellow", "Black"],
-        "season2526": { "position": 9, "points": 37 },
+        "colors": [
+          "Yellow",
+          "Black"
+        ],
+        "season2526": {
+          "position": 9,
+          "points": 37
+        },
         "keyPlayers": []
       },
       {
@@ -215,10 +656,21 @@
         "city": "Polokwane",
         "stadium": "Old Peter Mokaba Stadium",
         "stadiumCapacity": 15000,
-        "colors": ["Green", "White"],
-        "season2526": { "position": 8, "points": 40 },
+        "colors": [
+          "Green",
+          "White"
+        ],
+        "season2526": {
+          "position": 8,
+          "points": 40
+        },
         "keyPlayers": [
-          { "name": "Brian Bwire", "position": "GK", "nationality": "Kenya", "notes": "Froze out end of season, free agent" }
+          {
+            "name": "Brian Bwire",
+            "position": "GK",
+            "nationality": "Kenya",
+            "notes": "Froze out end of season, free agent"
+          }
         ]
       },
       {
@@ -228,7 +680,10 @@
         "city": "Mbombela",
         "stadium": "Mbombela Stadium",
         "stadiumCapacity": 40929,
-        "colors": ["Purple", "White"],
+        "colors": [
+          "Purple",
+          "White"
+        ],
         "season2526": {
           "position": 14,
           "points": 27,
@@ -244,8 +699,14 @@
         "city": "Bloemfontein",
         "stadium": "Dr Petrus Molemela Stadium",
         "stadiumCapacity": 22000,
-        "colors": ["Yellow", "Black"],
-        "season2526": { "position": 11, "points": 35 },
+        "colors": [
+          "Yellow",
+          "Black"
+        ],
+        "season2526": {
+          "position": 11,
+          "points": 35
+        },
         "keyPlayers": []
       },
       {
@@ -255,8 +716,14 @@
         "city": "Richards Bay",
         "stadium": "Richards Bay Stadium",
         "stadiumCapacity": 8000,
-        "colors": ["Blue", "White"],
-        "season2526": { "position": 12, "points": 34 },
+        "colors": [
+          "Blue",
+          "White"
+        ],
+        "season2526": {
+          "position": 12,
+          "points": 34
+        },
         "keyPlayers": []
       },
       {
@@ -266,13 +733,21 @@
         "city": "Bloemfontein",
         "stadium": "Dr Petrus Molemela Stadium",
         "stadiumCapacity": 22000,
-        "colors": ["White", "Blue"],
+        "colors": [
+          "White",
+          "Blue"
+        ],
         "season2526": {
           "position": 10,
           "points": 36
         },
         "keyPlayers": [
-          { "name": "Ricardo Goss", "position": "GK", "nationality": "South Africa", "notes": "Bafana WC 2026 squad" }
+          {
+            "name": "Ricardo Goss",
+            "position": "GK",
+            "nationality": "South Africa",
+            "notes": "Bafana WC 2026 squad"
+          }
         ]
       },
       {
@@ -282,8 +757,14 @@
         "city": "Seshego",
         "stadium": "Seshego Stadium",
         "stadiumCapacity": 15000,
-        "colors": ["Red", "White"],
-        "season2526": { "position": 13, "points": 33 },
+        "colors": [
+          "Red",
+          "White"
+        ],
+        "season2526": {
+          "position": 13,
+          "points": 33
+        },
         "keyPlayers": []
       },
       {
@@ -293,8 +774,14 @@
         "city": "Port Elizabeth (Gqeberha)",
         "stadium": "Nelson Mandela Bay Stadium",
         "stadiumCapacity": 48000,
-        "colors": ["Green", "Orange"],
-        "season2526": { "position": 15, "points": 26 },
+        "colors": [
+          "Green",
+          "Orange"
+        ],
+        "season2526": {
+          "position": 15,
+          "points": 26
+        },
         "keyPlayers": []
       },
       {
@@ -304,84 +791,75 @@
         "city": "Rustenburg",
         "stadium": "Olympia Park",
         "stadiumCapacity": 32000,
-        "colors": ["Blue", "White"],
-        "season2526": { "position": 16, "points": 24, "relegated": true },
+        "colors": [
+          "Blue",
+          "White"
+        ],
+        "season2526": {
+          "position": 16,
+          "points": 24,
+          "relegated": true
+        },
         "keyPlayers": []
+      }
+    ],
+    "topScorers": [
+      {
+        "name": "Junior Dion",
+        "club": "Lamontville Golden Arrows",
+        "goals": 14
+      },
+      {
+        "name": "Iqraam Rayners",
+        "club": "Mamelodi Sundowns",
+        "goals": 12
+      },
+      {
+        "name": "Relebohile Mofokeng",
+        "club": "Orlando Pirates",
+        "goals": 10
       }
     ]
   },
-
   "world_cup_2026": {
     "tournament": "FIFA World Cup 2026",
-    "hosts": ["United States", "Canada", "Mexico"],
+    "hosts": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
     "dates": "11 June – 19 July 2026",
     "totalTeams": 48,
     "totalPlayers": 1248,
     "openingMatch": "Mexico vs South Africa – Estadio Azteca, Mexico City – 11 June 2026",
     "final": "MetLife Stadium, New Jersey – 19 July 2026",
-
-    "bafana_bafana": {
-      "teamName": "Bafana Bafana",
-      "country": "South Africa",
-      "coach": "Hugo Broos",
-      "group": "Group H",
-      "groupFixtures": [
-        { "opponent": "Mexico",       "date": "2026-06-11", "venue": "Estadio Azteca, Mexico City", "notes": "Opening match" },
-        { "opponent": "Czech Republic","date": "TBC",       "venue": "TBC" },
-        { "opponent": "South Korea",  "date": "TBC",       "venue": "TBC" }
-      ],
-      "squad": {
-        "goalkeepers": [
-          { "name": "Ronwen Williams", "club": "Mamelodi Sundowns", "caps": "80+", "notes": "Captain, first choice" },
-          { "name": "Ricardo Goss",    "club": "Siwelele FC",        "notes": "Second choice" },
-          { "name": "Sipho Chaine",    "club": "Orlando Pirates",    "notes": "Third choice" }
-        ],
-        "defenders": [
-          { "name": "Khuliso Mudau",    "club": "Mamelodi Sundowns", "position": "RB" },
-          { "name": "Mothobi Mvala",    "club": "Mamelodi Sundowns", "position": "CB" },
-          { "name": "Rushine De Reuck", "club": "Mamelodi Sundowns", "position": "CB" },
-          { "name": "Fawaaz Basadien",  "club": "Mamelodi Sundowns", "position": "LB" },
-          { "name": "Innocent Maela",   "club": "Orlando Pirates",   "position": "CB" },
-          { "name": "Abel Mabaso",      "club": "Orlando Pirates",   "position": "RB" },
-          { "name": "Bradley Cross",    "club": "Kaizer Chiefs",     "position": "LB", "notes": "Only Kaizer Chiefs player" }
-        ],
-        "midfielders": [
-          { "name": "Teboho Mokoena",      "club": "Mamelodi Sundowns", "position": "CM",  "notes": "Set-piece specialist, key player" },
-          { "name": "Andile Jali",          "club": "Mamelodi Sundowns", "position": "CM",  "notes": "Veteran" },
-          { "name": "Jayden Adams",         "club": "Mamelodi Sundowns", "position": "CM" },
-          { "name": "Goodman Mosele",       "club": "Orlando Pirates",   "position": "CDM" },
-          { "name": "Thalente Mbatha",      "club": "Orlando Pirates",   "position": "CM" },
-          { "name": "Kamogelo Sebelebele",  "club": "TBC",               "position": "CM" },
-          { "name": "Olwethu Makhanya",     "club": "TBC",               "position": "CM" }
-        ],
-        "forwards": [
-          { "name": "Relebohile Mofokeng", "club": "Orlando Pirates",   "position": "AM/LW", "notes": "Young star, Pirates" },
-          { "name": "Themba Zwane",        "club": "Mamelodi Sundowns", "position": "AM",    "notes": "Veteran, No.10 role" },
-          { "name": "Thapelo Maseko",      "club": "Mamelodi Sundowns", "position": "RW" },
-          { "name": "Deon Hotto",          "club": "Orlando Pirates",   "position": "LW",    "nationality": "Namibia" },
-          { "name": "Evidence Makgopa",    "club": "Orlando Pirates",   "position": "ST" },
-          { "name": "Lyle Foster",         "club": "Kaizer Chiefs",     "position": "ST",    "notes": "Spent time in Europe" },
-          { "name": "Iqraam Rayners",      "club": "Mamelodi Sundowns", "position": "ST",    "notes": "Returned to squad, PSL's most valuable player" }
-        ]
-      },
-      "notableOmissions": [
-        { "name": "Brandon Petersen",    "club": "Kaizer Chiefs",   "position": "GK",  "reason": "Broos preferred Goss and Chaine" },
-        { "name": "Patrick Maswanganyi","club": "Orlando Pirates",  "position": "AM",  "reason": "Form/balance" },
-        { "name": "Thabiso Monyane",    "club": "Kaizer Chiefs",    "position": "LB",  "reason": "Not selected" },
-        { "name": "Lebogang Maboe",     "club": "Kaizer Chiefs",    "position": "AM",  "reason": "Not selected" }
-      ]
-    },
-
     "featuredNations": [
       {
         "country": "Argentina",
         "group": "TBC",
         "coach": "Lionel Scaloni",
         "starPlayers": [
-          { "name": "Lionel Messi",     "club": "Inter Miami",     "position": "AM", "notes": "Record 6th World Cup, likely farewell" },
-          { "name": "Lautaro Martínez", "club": "Inter Milan",     "position": "ST" },
-          { "name": "Rodrigo De Paul",  "club": "Atletico Madrid", "position": "CM" },
-          { "name": "Julian Alvarez",   "club": "Atletico Madrid", "position": "ST" }
+          {
+            "name": "Lionel Messi",
+            "club": "Inter Miami",
+            "position": "AM",
+            "notes": "Record 6th World Cup, likely farewell"
+          },
+          {
+            "name": "Lautaro Martínez",
+            "club": "Inter Milan",
+            "position": "ST"
+          },
+          {
+            "name": "Rodrigo De Paul",
+            "club": "Atletico Madrid",
+            "position": "CM"
+          },
+          {
+            "name": "Julian Alvarez",
+            "club": "Atletico Madrid",
+            "position": "ST"
+          }
         ]
       },
       {
@@ -389,10 +867,27 @@
         "group": "TBC",
         "coach": "Dorival Júnior",
         "starPlayers": [
-          { "name": "Vinicius Jr",  "club": "Real Madrid",    "position": "LW" },
-          { "name": "Endrick",      "club": "Real Madrid",    "position": "ST", "notes": "Young star debut WC" },
-          { "name": "Rodrygo",      "club": "Real Madrid",    "position": "RW" },
-          { "name": "Casemiro",     "club": "Manchester United","position": "CDM" }
+          {
+            "name": "Vinicius Jr",
+            "club": "Real Madrid",
+            "position": "LW"
+          },
+          {
+            "name": "Endrick",
+            "club": "Real Madrid",
+            "position": "ST",
+            "notes": "Young star debut WC"
+          },
+          {
+            "name": "Rodrygo",
+            "club": "Real Madrid",
+            "position": "RW"
+          },
+          {
+            "name": "Casemiro",
+            "club": "Manchester United",
+            "position": "CDM"
+          }
         ]
       },
       {
@@ -400,9 +895,22 @@
         "group": "TBC",
         "coach": "Didier Deschamps",
         "starPlayers": [
-          { "name": "Kylian Mbappé",       "club": "Real Madrid",        "position": "ST" },
-          { "name": "Antoine Griezmann",   "club": "Atletico Madrid",    "position": "AM" },
-          { "name": "Warren Zaïre-Emery",  "club": "Paris Saint-Germain","position": "CM", "notes": "Next-gen star" }
+          {
+            "name": "Kylian Mbappé",
+            "club": "Real Madrid",
+            "position": "ST"
+          },
+          {
+            "name": "Antoine Griezmann",
+            "club": "Atletico Madrid",
+            "position": "AM"
+          },
+          {
+            "name": "Warren Zaïre-Emery",
+            "club": "Paris Saint-Germain",
+            "position": "CM",
+            "notes": "Next-gen star"
+          }
         ]
       },
       {
@@ -410,56 +918,139 @@
         "group": "TBC",
         "coach": "Lee Carsley",
         "starPlayers": [
-          { "name": "Jude Bellingham",  "club": "Real Madrid",    "position": "AM" },
-          { "name": "Phil Foden",       "club": "Manchester City","position": "AM" },
-          { "name": "Harry Kane",       "club": "Bayern Munich",  "position": "ST" },
-          { "name": "Bukayo Saka",      "club": "Arsenal",        "position": "RW" }
+          {
+            "name": "Jude Bellingham",
+            "club": "Real Madrid",
+            "position": "AM"
+          },
+          {
+            "name": "Phil Foden",
+            "club": "Manchester City",
+            "position": "AM"
+          },
+          {
+            "name": "Harry Kane",
+            "club": "Bayern Munich",
+            "position": "ST"
+          },
+          {
+            "name": "Bukayo Saka",
+            "club": "Arsenal",
+            "position": "RW"
+          }
         ]
       },
       {
         "country": "Spain",
         "group": "TBC",
         "starPlayers": [
-          { "name": "Lamine Yamal",   "club": "Barcelona",    "position": "RW", "notes": "Young breakout star" },
-          { "name": "Pedri",          "club": "Barcelona",    "position": "CM" },
-          { "name": "Rodri",          "club": "Manchester City","position": "CDM" },
-          { "name": "Alvaro Morata",  "club": "Atletico Madrid","position": "ST" }
+          {
+            "name": "Lamine Yamal",
+            "club": "Barcelona",
+            "position": "RW",
+            "notes": "Young breakout star"
+          },
+          {
+            "name": "Pedri",
+            "club": "Barcelona",
+            "position": "CM"
+          },
+          {
+            "name": "Rodri",
+            "club": "Manchester City",
+            "position": "CDM"
+          },
+          {
+            "name": "Alvaro Morata",
+            "club": "Atletico Madrid",
+            "position": "ST"
+          }
         ]
       },
       {
         "country": "Portugal",
         "group": "TBC",
         "starPlayers": [
-          { "name": "Cristiano Ronaldo","club": "Al-Nassr",    "position": "ST", "notes": "Record 6th World Cup" },
-          { "name": "Bruno Fernandes",  "club": "Manchester United","position": "AM" },
-          { "name": "Rafael Leão",      "club": "AC Milan",    "position": "LW" }
+          {
+            "name": "Cristiano Ronaldo",
+            "club": "Al-Nassr",
+            "position": "ST",
+            "notes": "Record 6th World Cup"
+          },
+          {
+            "name": "Bruno Fernandes",
+            "club": "Manchester United",
+            "position": "AM"
+          },
+          {
+            "name": "Rafael Leão",
+            "club": "AC Milan",
+            "position": "LW"
+          }
         ]
       },
       {
         "country": "Germany",
         "group": "TBC",
         "starPlayers": [
-          { "name": "Florian Wirtz",   "club": "Bayer Leverkusen","position": "AM" },
-          { "name": "Jamal Musiala",   "club": "Bayern Munich",   "position": "AM" },
-          { "name": "Kai Havertz",     "club": "Arsenal",         "position": "AM" }
+          {
+            "name": "Florian Wirtz",
+            "club": "Bayer Leverkusen",
+            "position": "AM"
+          },
+          {
+            "name": "Jamal Musiala",
+            "club": "Bayern Munich",
+            "position": "AM"
+          },
+          {
+            "name": "Kai Havertz",
+            "club": "Arsenal",
+            "position": "AM"
+          }
         ]
       },
       {
         "country": "Netherlands",
         "group": "TBC",
         "starPlayers": [
-          { "name": "Virgil van Dijk",  "club": "Liverpool",      "position": "CB" },
-          { "name": "Xavi Simons",      "club": "RB Leipzig",     "position": "AM" },
-          { "name": "Cody Gakpo",       "club": "Liverpool",      "position": "LW" }
+          {
+            "name": "Virgil van Dijk",
+            "club": "Liverpool",
+            "position": "CB"
+          },
+          {
+            "name": "Xavi Simons",
+            "club": "RB Leipzig",
+            "position": "AM"
+          },
+          {
+            "name": "Cody Gakpo",
+            "club": "Liverpool",
+            "position": "LW"
+          }
         ]
       },
       {
         "country": "Morocco",
         "group": "TBC",
         "starPlayers": [
-          { "name": "Achraf Hakimi",       "club": "Paris Saint-Germain","position": "RB" },
-          { "name": "Hakim Ziyech",        "club": "Galatasaray",        "position": "AM" },
-          { "name": "Bilal El Khannouss",  "club": "Leicester City",     "position": "CM", "notes": "Next-gen star" }
+          {
+            "name": "Achraf Hakimi",
+            "club": "Paris Saint-Germain",
+            "position": "RB"
+          },
+          {
+            "name": "Hakim Ziyech",
+            "club": "Galatasaray",
+            "position": "AM"
+          },
+          {
+            "name": "Bilal El Khannouss",
+            "club": "Leicester City",
+            "position": "CM",
+            "notes": "Next-gen star"
+          }
         ]
       },
       {
@@ -468,12 +1059,36 @@
         "coach": "Mauricio Pochettino",
         "notes": "Host nation",
         "starPlayers": [
-          { "name": "Christian Pulisic",  "club": "AC Milan",       "position": "AM" },
-          { "name": "Weston McKennie",    "club": "Juventus",       "position": "CM" },
-          { "name": "Gio Reyna",          "club": "Borussia Monchengladbach","position": "AM" },
-          { "name": "Antonee Robinson",   "club": "Fulham",         "position": "LB" },
-          { "name": "Sergino Dest",       "club": "PSV",            "position": "RB" },
-          { "name": "Tyler Adams",        "club": "Bournemouth",    "position": "CM" }
+          {
+            "name": "Christian Pulisic",
+            "club": "AC Milan",
+            "position": "AM"
+          },
+          {
+            "name": "Weston McKennie",
+            "club": "Juventus",
+            "position": "CM"
+          },
+          {
+            "name": "Gio Reyna",
+            "club": "Borussia Monchengladbach",
+            "position": "AM"
+          },
+          {
+            "name": "Antonee Robinson",
+            "club": "Fulham",
+            "position": "LB"
+          },
+          {
+            "name": "Sergino Dest",
+            "club": "PSV",
+            "position": "RB"
+          },
+          {
+            "name": "Tyler Adams",
+            "club": "Bournemouth",
+            "position": "CM"
+          }
         ]
       },
       {
@@ -481,14 +1096,30 @@
         "group": "TBC",
         "notes": "Host nation – SA's opening opponent",
         "starPlayers": [
-          { "name": "Edson Alvarez",     "club": "Fenerbahce",     "position": "CDM" },
-          { "name": "Guillermo Ochoa",   "club": "AEL Limassol",   "position": "GK",  "notes": "Record 6th World Cup – icon" },
-          { "name": "Jorge Sanchez",     "club": "PAOK",           "position": "RB" },
-          { "name": "Raul Rangel",       "club": "CD Guadalajara", "position": "GK" }
+          {
+            "name": "Edson Alvarez",
+            "club": "Fenerbahce",
+            "position": "CDM"
+          },
+          {
+            "name": "Guillermo Ochoa",
+            "club": "AEL Limassol",
+            "position": "GK",
+            "notes": "Record 6th World Cup – icon"
+          },
+          {
+            "name": "Jorge Sanchez",
+            "club": "PAOK",
+            "position": "RB"
+          },
+          {
+            "name": "Raul Rangel",
+            "club": "CD Guadalajara",
+            "position": "GK"
+          }
         ]
       }
     ],
-
     "tournamentStats": {
       "totalMatches": 104,
       "squadsPerTeam": 26,
@@ -496,6 +1127,245 @@
       "clubsRepresented": 449,
       "countriesWithClubs": 71,
       "playersAtPreviousWorldCups": 357
+    },
+    "groupA": {
+      "finalStandings": [
+        {
+          "pos": 1,
+          "team": "Mexico",
+          "pld": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "pts": 9,
+          "qualified": true
+        },
+        {
+          "pos": 2,
+          "team": "South Africa",
+          "pld": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 3,
+          "gd": -1,
+          "pts": 4,
+          "qualified": true
+        },
+        {
+          "pos": 3,
+          "team": "South Korea",
+          "pld": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gf": 2,
+          "ga": 3,
+          "gd": -1,
+          "pts": 3,
+          "qualified": false
+        },
+        {
+          "pos": 4,
+          "team": "Czechia",
+          "pld": 3,
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "gf": 2,
+          "ga": 6,
+          "gd": -4,
+          "pts": 1,
+          "qualified": false
+        }
+      ],
+      "results": [
+        {
+          "matchday": 1,
+          "fixture": "Mexico 2-0 South Africa",
+          "date": "11 June 2026",
+          "venue": "Estadio Azteca, Mexico City",
+          "scorers": "Quiñones 9', Jiménez 67' (MEX)",
+          "note": "Three red cards shown; South Africa never seriously threatened Mexico's goal despite the numerical disadvantage."
+        },
+        {
+          "matchday": 2,
+          "fixture": "Czechia 1-1 South Africa",
+          "date": "18 June 2026",
+          "venue": "Mercedes-Benz Stadium, Atlanta",
+          "scorers": "Sadilek 6' (CZE); Mokoena 83' pen (RSA)",
+          "note": "South Africa dominated the second half (1.37 xG to 1.02) and were rewarded with a late penalty to snatch a vital point."
+        },
+        {
+          "matchday": 3,
+          "fixture": "South Africa 1-0 South Korea",
+          "date": "24 June 2026",
+          "venue": "Monterrey Stadium, Monterrey",
+          "scorers": "Maseko 63' (RSA)",
+          "note": "HISTORY MADE — Thapelo Maseko's finish sent Bafana Bafana into the knockout stage of a World Cup for the first time ever."
+        }
+      ]
+    },
+    "bafana_summary": {
+      "finalResult": "Eliminated in the Round of 32, 0-1 to Canada",
+      "historicMilestone": "First-ever World Cup knockout stage appearance for South Africa",
+      "groupStageRecord": "W1 D1 L1",
+      "goalsScored": 2,
+      "goalsConceded": 3,
+      "topScorer": "Thapelo Maseko, Teboho Mokoena (1 each)",
+      "managerNote": "Hugo Broos confirmed his departure as head coach after the Canada match, closing out a five-year tenure."
+    },
+    "bafana_knockout": {
+      "roundOf32": {
+        "fixture": "South Africa 0-1 Canada",
+        "date": "28 June 2026",
+        "venue": "SoFi Stadium, Los Angeles",
+        "scorers": "Eustaquio 90+2' (CAN)",
+        "note": "South Africa defended superbly for 90 minutes before Stephen Eustaquio's stoppage-time strike ended a historic campaign."
+      }
+    },
+    "bafana_bafana_squad": {
+      "manager": "Hugo Broos",
+      "captain": "Ronwen Williams",
+      "players": [
+        {
+          "name": "Ronwen Williams",
+          "club": "Mamelodi Sundowns",
+          "role": "Goalkeeper",
+          "jersey": 1,
+          "captain": true
+        },
+        {
+          "name": "Ricardo Goss",
+          "club": "Stellenbosch FC",
+          "role": "Goalkeeper"
+        },
+        {
+          "name": "Sipho Chaine",
+          "club": "Orlando Pirates",
+          "role": "Goalkeeper"
+        },
+        {
+          "name": "Khuliso Mudau",
+          "club": "Mamelodi Sundowns",
+          "role": "Defender"
+        },
+        {
+          "name": "Nkosinathi Sibisi",
+          "club": "Mamelodi Sundowns",
+          "role": "Defender"
+        },
+        {
+          "name": "Ime Okon",
+          "club": "Orlando Pirates",
+          "role": "Defender"
+        },
+        {
+          "name": "Khulumani Ndamane",
+          "club": "Sekhukhune United",
+          "role": "Defender"
+        },
+        {
+          "name": "Aubrey Modiba",
+          "club": "Mamelodi Sundowns",
+          "role": "Defender"
+        },
+        {
+          "name": "Samukele Kabini",
+          "club": "Molde FK",
+          "role": "Defender"
+        },
+        {
+          "name": "Thabang Matuludi",
+          "club": "Orlando Pirates",
+          "role": "Defender"
+        },
+        {
+          "name": "Olwethu Makhanya",
+          "club": "Golden Arrows",
+          "role": "Defender"
+        },
+        {
+          "name": "Kamogelo Sebelebele",
+          "club": "Sekhukhune United",
+          "role": "Defender"
+        },
+        {
+          "name": "Bradley Cross",
+          "club": "Orlando Pirates",
+          "role": "Defender"
+        },
+        {
+          "name": "Mbekezeli Mbokazi",
+          "club": "Orlando Pirates",
+          "role": "Defender"
+        },
+        {
+          "name": "Teboho Mokoena",
+          "club": "Mamelodi Sundowns",
+          "role": "Midfielder"
+        },
+        {
+          "name": "Thalente Mbatha",
+          "club": "Mamelodi Sundowns",
+          "role": "Midfielder"
+        },
+        {
+          "name": "Sphephelo Sithole",
+          "club": "Golden Arrows",
+          "role": "Midfielder"
+        },
+        {
+          "name": "Jayden Adams",
+          "club": "Mamelodi Sundowns",
+          "role": "Midfielder"
+        },
+        {
+          "name": "Oswin Appollis",
+          "club": "Orlando Pirates",
+          "role": "Forward"
+        },
+        {
+          "name": "Iqraam Rayners",
+          "club": "Mamelodi Sundowns",
+          "role": "Forward"
+        },
+        {
+          "name": "Tshepang Moremi",
+          "club": "Sekhukhune United",
+          "role": "Forward"
+        },
+        {
+          "name": "Relebohile Mofokeng",
+          "club": "Orlando Pirates",
+          "role": "Forward",
+          "jersey": 38
+        },
+        {
+          "name": "Evidence Makgopa",
+          "club": "Orlando Pirates",
+          "role": "Forward"
+        },
+        {
+          "name": "Themba Zwane",
+          "club": "Mamelodi Sundowns",
+          "role": "Forward"
+        },
+        {
+          "name": "Lyle Foster",
+          "club": "Burnley FC",
+          "role": "Forward"
+        },
+        {
+          "name": "Thapelo Maseko",
+          "club": "Orlando Pirates",
+          "role": "Forward"
+        }
+      ]
     }
   }
 }
