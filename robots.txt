@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://matchdaysoccerplanet.pages.dev/sitemap.xml
