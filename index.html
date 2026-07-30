@@ -171,6 +171,9 @@
     // articles.json lives at repo root and can be updated on its own
     // (new article dropped in) without touching this file or any other.
     async function loadData() {
+      // Cookie banner + theme must work regardless of whether data loads —
+      // wire them up first, unconditionally.
+      initShell();
       try {
         const [dataRes, articlesRes] = await Promise.all([
           fetch('data.json?v=' + Date.now()),       // bust cache
@@ -182,19 +185,22 @@
         ARTICLES = await articlesRes.json();
         document.getElementById('last-updated').textContent =
           'Last updated: ' + (DATA.meta?.lastUpdated || 'Unknown');
-        init();
+        window.addEventListener('hashchange', function () { renderPage(location.hash); });
+        renderPage(location.hash);
       } catch (e) {
         console.error('data.json / articles.json fetch failed:', e);
         document.getElementById('app').innerHTML =
           '<div class="card" style="border-color:var(--sa-red);text-align:center;">' +
           '<h3 style="color:var(--sa-red);">⚠️ Could not load data</h3>' +
           '<p>Please check your internet connection and refresh the page.</p>' +
+          '<p style="font-size:0.75rem;color:#888;margin-top:8px;">Technical detail: ' + (e && e.message ? e.message : 'unknown error') + '</p>' +
           '<button onclick="location.reload()" style="margin-top:10px;padding:10px 20px;background:var(--gold);border:none;border-radius:20px;color:#000;font-weight:700;cursor:pointer;">Refresh</button>' +
           '</div>';
       }
     }
 
-    function init() {
+    // Theme toggle + cookie banner — always runs, independent of data load success.
+    function initShell() {
       if (localStorage.getItem('msp_theme') === 'light') {
         document.body.classList.add('light-mode');
         document.getElementById('theme-btn').innerHTML = '🌙 Dark Mode';
@@ -209,8 +215,6 @@
       } else {
         banner.classList.add('hidden');
       }
-      window.addEventListener('hashchange', function () { renderPage(location.hash); });
-      renderPage(location.hash);
     }
 
     function toggleTheme() {
